@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { Navbar } from '@/components/navbar'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Titanic QA',
+  description: 'Titanic QA Assistant - 타이타닉 데이터 기반 질의응답',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -35,8 +36,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-background">
       <body className="font-sans antialiased">
+        <Navbar />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
