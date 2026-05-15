@@ -174,7 +174,7 @@ function TitanicQAPage() {
           <div className="text-center text-gray-500 dark:text-gray-400 py-12">
             <MessageCircle size={48} className="mx-auto mb-4 opacity-50" />
             <p>질문을 입력해 보세요!</p>
-            <p className="text-sm mt-1">예: 25세 남성 3등석 생존 가능성은?</p>
+            <p className="text-sm mt-1">예: 미국의 수도는 어디야 ?</p>
           </div>
         )}
 
