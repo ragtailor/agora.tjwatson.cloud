@@ -261,7 +261,7 @@ function TitanicQAPage() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="예: 25세 남성 3등석 생존 가능성은?"
+            placeholder="예: 미국의 수도는 어디야 ?"
             maxLength={500}
             rows={2}
             disabled={isLoading}
