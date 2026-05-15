@@ -33,10 +33,10 @@ export default function TitanicQaApp() {
         {/* Header */}
         <header className="text-center mb-6">
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-            Titanic QA Assistant
+            Gemini QA Assistant
           </h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-            타이타닉 데이터 기반 질의응답
+            재미나이 질의응답
           </p>
         </header>
 
